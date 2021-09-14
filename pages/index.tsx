@@ -2,14 +2,13 @@
 import Link from "next/link"; // Local routing
 import Image from "next/image";
 import Layout from "@components/Layout"; // Layout wrapper
-import { defaultCards } from "@utils/constants"; // Cards to render
+import { contractAddress, defaultCards } from "@utils/constants"; // Cards to render
 import styles from "@styles/pages/Home.module.scss"; // Styles
 
 // Types
 import type { ReactElement } from "react";
 
 export default function Home(): ReactElement {
-  const contractAddress = "";
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/cardgameproject" },
