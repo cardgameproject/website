@@ -1,6 +1,6 @@
 # Card Game Website
 
-Community run website for the [Card Game](http://cardgame.com) project.
+Community run website for the [Card Game](http://cardgameproject.com) project.
 
 Feel free to use this website or Card Game in any way you like.
 
