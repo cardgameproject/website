@@ -28,10 +28,10 @@ export default function FAQ(): ReactElement {
             </a>
             . Each card has:
             <ul>
-              <li>A card type - creature, item, spell, or place</li>
               <li>Name</li>
-              <li>16 different stat numbers, in 4 groups of 4 around the card</li>
-              <li>0 - 4 Abilities - randomly named</li>
+              <li>A card type - creature, item, spell, or place</li>
+              <li>4 different stat numbers, in each of the 4 corners of the card</li>
+              <li>Up to 4 different abilites. There are 4 possible abilities for each card type.</li>
 
             </ul>
           </p>

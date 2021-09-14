@@ -2,93 +2,34 @@
 export const defaultCards = [
   {
     id: 1,
-    attributes: [
-      "Hard Leather Armor",
-      '"Death Root" Ornate Greaves of Skill',
-      "Studded Leather Gloves",
-      "Divine Hood",
-      "Necklace of Enlightenment",
-      "Gold Ring",
-      "Hard Leather Belt",
-      '"Grim Shout" Grave Wand of Skill +1',
-    ],
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAyMDAgMjUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IGFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgfSA8L3N0eWxlPjxyZWN0IHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyNTBweCIgZmlsbD0iYmxhY2siIC8+PHRleHQgeD0iMTAwIiB5PSI0NSIgY2xhc3M9ImJhc2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkhlYXZ5IFJ1ZzwvdGV4dD48dGV4dCB4PSIxMDAiIHk9IjY1IiBjbGFzcz0iYmFzZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+aXRlbTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjAiIGNsYXNzPSJiYXNlIj4zPC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjAiIGNsYXNzPSJiYXNlIj41PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDAiIGNsYXNzPSJiYXNlIj4yPC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjQwIiBjbGFzcz0iYmFzZSI+MTwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTEwIiBjbGFzcz0iYmFzZSI+PC90ZXh0Pjx0ZXh0IHg9IjIwIiB5PSIxMzAiIGNsYXNzPSJiYXNlIj48L3RleHQ+PHRleHQgeD0iMjAiIHk9IjE1MCIgY2xhc3M9ImJhc2UiPjwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTcwIiBjbGFzcz0iYmFzZSI+PC90ZXh0Pjwvc3ZnPg=="
   },
   {
     id: 111,
-    attributes: [
-      "Ring Mail of Giants",
-      "Demonhide Boots of the Fox",
-      "Heavy Gloves",
-      "Cap",
-      "Necklace",
-      "Gold Ring",
-      "Wool Sash of Protection",
-      "Ghost Wand",
-    ],
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAyMDAgMjUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IGFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgfSA8L3N0eWxlPjxyZWN0IHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyNTBweCIgZmlsbD0iYmxhY2siIC8+PHRleHQgeD0iMTAwIiB5PSI0NSIgY2xhc3M9ImJhc2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlZvbGNhbmljIEZsb29kPC90ZXh0Pjx0ZXh0IHg9IjEwMCIgeT0iNjUiIGNsYXNzPSJiYXNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5zcGVsbDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjAiIGNsYXNzPSJiYXNlIj40PC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjAiIGNsYXNzPSJiYXNlIj42PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDAiIGNsYXNzPSJiYXNlIj4xPC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjQwIiBjbGFzcz0iYmFzZSI+NTwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTEwIiBjbGFzcz0iYmFzZSI+QmluZGluZzwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTMwIiBjbGFzcz0iYmFzZSI+Q291bnRlcmNhc3Q8L3RleHQ+PHRleHQgeD0iMjAiIHk9IjE1MCIgY2xhc3M9ImJhc2UiPkZpenpsZTwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTcwIiBjbGFzcz0iYmFzZSI+PC90ZXh0Pjwvc3ZnPg=="
+  },
+  {
+    id: 133,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAyMDAgMjUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IGFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgfSA8L3N0eWxlPjxyZWN0IHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyNTBweCIgZmlsbD0iYmxhY2siIC8+PHRleHQgeD0iMTAwIiB5PSI0NSIgY2xhc3M9ImJhc2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPldhbmRlcmluZyBXb2xmPC90ZXh0Pjx0ZXh0IHg9IjEwMCIgeT0iNjUiIGNsYXNzPSJiYXNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5jcmVhdHVyZTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjAiIGNsYXNzPSJiYXNlIj4zPC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjAiIGNsYXNzPSJiYXNlIj4xPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDAiIGNsYXNzPSJiYXNlIj4wPC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjQwIiBjbGFzcz0iYmFzZSI+MjwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTEwIiBjbGFzcz0iYmFzZSI+TGFuZGNyYXdsZXI8L3RleHQ+PHRleHQgeD0iMjAiIHk9IjEzMCIgY2xhc3M9ImJhc2UiPkJyaWRnaW5nPC90ZXh0Pjx0ZXh0IHg9IjIwIiB5PSIxNTAiIGNsYXNzPSJiYXNlIj48L3RleHQ+PHRleHQgeD0iMjAiIHk9IjE3MCIgY2xhc3M9ImJhc2UiPjwvdGV4dD48L3N2Zz4="
   },
   {
     id: 420,
-    attributes: [
-      "Chain Mail",
-      "Shoes of Enlightenment",
-      "Demon's Hands",
-      "Ancient Helm",
-      "Necklace",
-      "Platinum Ring of Vitriol",
-      "Heavy Belt",
-      '"Honour Grasp" Katana of Protection +1',
-    ],
-  },
-  {
-    id: 6969,
-    attributes: [
-      "Chain Mail",
-      "Holy Greaves of Giants",
-      "Silk Gloves",
-      "Dragon's Crown",
-      "Pendant of Perfection",
-      "Titanium Ring of Giants",
-      "Heavy Belt",
-      "Bone Wand",
-    ],
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAyMDAgMjUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IGFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgfSA8L3N0eWxlPjxyZWN0IHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyNTBweCIgZmlsbD0iYmxhY2siIC8+PHRleHQgeD0iMTAwIiB5PSI0NSIgY2xhc3M9ImJhc2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNoYWRvdyBDcm9zczwvdGV4dD48dGV4dCB4PSIxMDAiIHk9IjY1IiBjbGFzcz0iYmFzZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+aXRlbTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjAiIGNsYXNzPSJiYXNlIj45PC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjAiIGNsYXNzPSJiYXNlIj42PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDAiIGNsYXNzPSJiYXNlIj43PC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjQwIiBjbGFzcz0iYmFzZSI+OTwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTEwIiBjbGFzcz0iYmFzZSI+PC90ZXh0Pjx0ZXh0IHg9IjIwIiB5PSIxMzAiIGNsYXNzPSJiYXNlIj48L3RleHQ+PHRleHQgeD0iMjAiIHk9IjE1MCIgY2xhc3M9ImJhc2UiPjwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTcwIiBjbGFzcz0iYmFzZSI+PC90ZXh0Pjwvc3ZnPg=="
   },
   {
     id: 1234,
-    attributes: [
-      "Holy Chestplate",
-      "Divine Slippers of Perfection",
-      "Dragonskin Gloves",
-      '"Woe Shout" Demon Crown of Protection +1',
-      "Necklace",
-      "Titanium Ring",
-      "Silk Sash",
-      "Book",
-    ],
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAyMDAgMjUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IGFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgfSA8L3N0eWxlPjxyZWN0IHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyNTBweCIgZmlsbD0iYmxhY2siIC8+PHRleHQgeD0iMTAwIiB5PSI0NSIgY2xhc3M9ImJhc2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlBzeWNoaWMgQm9sdDwvdGV4dD48dGV4dCB4PSIxMDAiIHk9IjY1IiBjbGFzcz0iYmFzZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+c3BlbGw8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjIwIiBjbGFzcz0iYmFzZSI+NDwvdGV4dD48dGV4dCB4PSIxODUiIHk9IjIwIiBjbGFzcz0iYmFzZSI+MTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjQwIiBjbGFzcz0iYmFzZSI+OTwvdGV4dD48dGV4dCB4PSIxODUiIHk9IjI0MCIgY2xhc3M9ImJhc2UiPjA8L3RleHQ+PHRleHQgeD0iMjAiIHk9IjExMCIgY2xhc3M9ImJhc2UiPjwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTMwIiBjbGFzcz0iYmFzZSI+PC90ZXh0Pjx0ZXh0IHg9IjIwIiB5PSIxNTAiIGNsYXNzPSJiYXNlIj48L3RleHQ+PHRleHQgeD0iMjAiIHk9IjE3MCIgY2xhc3M9ImJhc2UiPjwvdGV4dD48L3N2Zz4="
   },
   {
     id: 1337,
-    attributes: [
-      "Divine Robe",
-      '"Foe Peak" Shoes of Reflection +1',
-      "Divine Gloves",
-      "Full Helm",
-      "Necklace",
-      "Titanium Ring",
-      "Ornate Belt",
-      "Falchion of Reflection",
-    ],
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAyMDAgMjUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IGFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgfSA8L3N0eWxlPjxyZWN0IHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyNTBweCIgZmlsbD0iYmxhY2siIC8+PHRleHQgeD0iMTAwIiB5PSI0NSIgY2xhc3M9ImJhc2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkxpbmdlcmluZyBTb3VsPC90ZXh0Pjx0ZXh0IHg9IjEwMCIgeT0iNjUiIGNsYXNzPSJiYXNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5jcmVhdHVyZTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjAiIGNsYXNzPSJiYXNlIj45PC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjAiIGNsYXNzPSJiYXNlIj45PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDAiIGNsYXNzPSJiYXNlIj43PC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjQwIiBjbGFzcz0iYmFzZSI+NDwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTEwIiBjbGFzcz0iYmFzZSI+SW1tb2JpbGU8L3RleHQ+PHRleHQgeD0iMjAiIHk9IjEzMCIgY2xhc3M9ImJhc2UiPkxhbmRjcmF3bGVyPC90ZXh0Pjx0ZXh0IHg9IjIwIiB5PSIxNTAiIGNsYXNzPSJiYXNlIj5CcmlkZ2luZzwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTcwIiBjbGFzcz0iYmFzZSI+PC90ZXh0Pjwvc3ZnPg=="
+  },
+  {
+    id: 4444,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAyMDAgMjUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IGFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgfSA8L3N0eWxlPjxyZWN0IHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyNTBweCIgZmlsbD0iYmxhY2siIC8+PHRleHQgeD0iMTAwIiB5PSI0NSIgY2xhc3M9ImJhc2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPldvcm4gQm90dGxlPC90ZXh0Pjx0ZXh0IHg9IjEwMCIgeT0iNjUiIGNsYXNzPSJiYXNlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5pdGVtPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyMCIgY2xhc3M9ImJhc2UiPjk8L3RleHQ+PHRleHQgeD0iMTg1IiB5PSIyMCIgY2xhc3M9ImJhc2UiPjY8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjI0MCIgY2xhc3M9ImJhc2UiPjU8L3RleHQ+PHRleHQgeD0iMTg1IiB5PSIyNDAiIGNsYXNzPSJiYXNlIj40PC90ZXh0Pjx0ZXh0IHg9IjIwIiB5PSIxMTAiIGNsYXNzPSJiYXNlIj5NYWdlc3RpYzwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTMwIiBjbGFzcz0iYmFzZSI+TmVnbGVjdGVkPC90ZXh0Pjx0ZXh0IHg9IjIwIiB5PSIxNTAiIGNsYXNzPSJiYXNlIj5QYWNrZWQ8L3RleHQ+PHRleHQgeD0iMjAiIHk9IjE3MCIgY2xhc3M9ImJhc2UiPjwvdGV4dD48L3N2Zz4="
   },
   {
     id: 6969,
-    attributes: [
-      "Chain Mail",
-      "Holy Greaves of Giants",
-      "Silk Gloves",
-      "Dragon's Crown",
-      "Pendant of Perfection",
-      "Titanium Ring of Giants",
-      "Heavy Belt",
-      "Bone Wand",
-    ],
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHZpZXdCb3g9IjAgMCAyMDAgMjUwIj48c3R5bGU+LmJhc2UgeyBmaWxsOiB3aGl0ZTsgZm9udC1mYW1pbHk6IGFyaWFsLHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJweDsgfSA8L3N0eWxlPjxyZWN0IHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyNTBweCIgZmlsbD0iYmxhY2siIC8+PHRleHQgeD0iMTAwIiB5PSI0NSIgY2xhc3M9ImJhc2UiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkdvbGRlbiBTdG9uZTwvdGV4dD48dGV4dCB4PSIxMDAiIHk9IjY1IiBjbGFzcz0iYmFzZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+aXRlbTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjAiIGNsYXNzPSJiYXNlIj4xPC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjAiIGNsYXNzPSJiYXNlIj4wPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDAiIGNsYXNzPSJiYXNlIj40PC90ZXh0Pjx0ZXh0IHg9IjE4NSIgeT0iMjQwIiBjbGFzcz0iYmFzZSI+MTwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTEwIiBjbGFzcz0iYmFzZSI+TmVnbGVjdGVkPC90ZXh0Pjx0ZXh0IHg9IjIwIiB5PSIxMzAiIGNsYXNzPSJiYXNlIj48L3RleHQ+PHRleHQgeD0iMjAiIHk9IjE1MCIgY2xhc3M9ImJhc2UiPjwvdGV4dD48dGV4dCB4PSIyMCIgeT0iMTcwIiBjbGFzcz0iYmFzZSI+PC90ZXh0Pjwvc3ZnPg=="
   },
 ];

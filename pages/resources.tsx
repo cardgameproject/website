@@ -18,26 +18,26 @@ const resources = [
     description: "Spaces run by the community for Card Game enthusiasts to share news and build together:",
     list: communityList
   },
-  {
-    title: "Developer Tooling",
-    description: "Aggregated resources built by the Card Game community:",
-    list: resourceList,
-  },
-  {
-    title: "Guilds",
-    description: "Guild divided by items and attributes:",
-    list: guildsList,
-  },
-  {
-    title: "Market Trackers",
-    description: "Tools to keep track of Card Game by attributes:",
-    list: marketsList,
-  },
-  {
-    title: "Derivative Projects",
-    description: "Projects that remix or build on top of Card Game. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
-    list: derivativesList,
-  },
+  // {
+  //   title: "Developer Tooling",
+  //   description: "Aggregated resources built by the Card Game community:",
+  //   list: resourceList,
+  // },
+  // {
+  //   title: "Guilds",
+  //   description: "Guild divided by items and attributes:",
+  //   list: guildsList,
+  // },
+  // {
+  //   title: "Market Trackers",
+  //   description: "Tools to keep track of Card Game by attributes:",
+  //   list: marketsList,
+  // },
+  // {
+  //   title: "Derivative Projects",
+  //   description: "Projects that remix or build on top of Card Game. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
+  //   list: derivativesList,
+  // },
 ];
 
 export default function Resources(): ReactElement {

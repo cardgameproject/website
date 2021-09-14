@@ -1,5 +1,6 @@
 // Imports
 import Link from "next/link"; // Local routing
+import Image from "next/image";
 import Layout from "@components/Layout"; // Layout wrapper
 import { defaultCards } from "@utils/constants"; // Cards to render
 import styles from "@styles/pages/Home.module.scss"; // Styles
@@ -15,6 +16,10 @@ export default function Home(): ReactElement {
     {
       name: "Twitter",
       url: "https://twitter.com/cardgameproject",
+    },
+    {
+      name: "Discord",
+      url: "https://discord.gg/sRt4Hxjs"
     },
     {
       name: "Contract",
@@ -63,14 +68,14 @@ export default function Home(): ReactElement {
           <p>
             Randomized cards generated and stored on chain <br />
             Gameplay, images, and other functionality are intentionally omitted for others to interpret.<br /> 
-            Feel free to use card game in any way you want.
+            Feel free to use Card Game in any way you want.
           </p>
         </div>
 
         {/* Rendering sample cards */}
         <div className={styles.home__feature}>
           <span>Example Cards:</span>
-          {getRandomThreeCards().map(({ id, attributes }, i) => (
+          {getRandomThreeCards().map(({ id, image }, i) => (
             // For each card , render item and link to OpenSea
             <a
               href={`https://opensea.io/assets/${contractAddress}/${id}`}
@@ -79,16 +84,7 @@ export default function Home(): ReactElement {
               key={i}
               className={styles.home__bag}
             >
-              <div className={styles.home__bag_attributes}>
-                <span>#{id}</span>
-                <ul>
-                  {attributes.map((attribute, i) => (
-                    <li key={i}>
-                      <span>{attribute}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <Image src={image} alt={`Card #${id}`} className="card" width="300px" height="400px" />
             </a>
           ))}
         </div>
