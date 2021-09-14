@@ -15,12 +15,12 @@ import type { ReactElement } from "react";
 const resources = [
   {
     title: "Communities",
-    description: "Spaces run by the community for Loot enthusiasts to share news and build together:",
+    description: "Spaces run by the community for Card Game enthusiasts to share news and build together:",
     list: communityList
   },
   {
     title: "Developer Tooling",
-    description: "Aggregated resources built by the Loot community:",
+    description: "Aggregated resources built by the Card Game community:",
     list: resourceList,
   },
   {
@@ -30,12 +30,12 @@ const resources = [
   },
   {
     title: "Market Trackers",
-    description: "Tools to keep track of Loot by attributes:",
+    description: "Tools to keep track of Card Game by attributes:",
     list: marketsList,
   },
   {
     title: "Derivative Projects",
-    description: "Projects that remix or build on top of Loot. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
+    description: "Projects that remix or build on top of Card Game. Please note that this list is community submitted and projects are *not* audited. Large errors are possible, up to and including loss of funds. Do your own research and proceed with caution:",
     list: derivativesList,
   },
 ];

@@ -55,7 +55,7 @@ function Head(): ReactElement {
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://cardgameproject.com/" />
-      <meta property="twitter:title" content="Loot" />
+      <meta property="twitter:title" content="Card Game" />
       <meta
         property="twitter:description"
         content="Randomized Cards generated and stored on chain."

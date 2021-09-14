@@ -67,11 +67,11 @@ export default function Home(): ReactElement {
           </p>
         </div>
 
-        {/* Rendering sample loot bags */}
+        {/* Rendering sample cards */}
         <div className={styles.home__feature}>
           <span>Example Cards:</span>
           {getRandomThreeCards().map(({ id, attributes }, i) => (
-            // For each loot bag, render item and link to OpenSea
+            // For each card , render item and link to OpenSea
             <a
               href={`https://opensea.io/assets/${contractAddress}/${id}`}
               target="_blank"

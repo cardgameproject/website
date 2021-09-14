@@ -13,3 +13,11 @@ yarn
 # Run Server
 yarn dev
 ```
+
+## Credits
+
+This project and website is inspired by and derived from [Loot Project](https://lootproject.com).
+
+## License
+
+MIT
