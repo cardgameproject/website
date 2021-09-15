@@ -70,7 +70,10 @@ export default function Home(): ReactElement {
           <p>
             Randomized cards generated and stored on chain <br />
             Gameplay, images, and other functionality are intentionally omitted for others to interpret.<br /> 
-            Feel free to use Card Game in any way you want.
+            Feel free to use Card Game in any way you want.<br /><br />
+          </p>
+          <p>
+            You can mint on Mainnet or Polygon, different cards are on each. Switch network in your wallet to choose.<br></br>
           </p>
 
           <div className={styles.home__mintbuttons}>
