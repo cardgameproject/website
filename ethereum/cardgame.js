@@ -23,4 +23,4 @@ class CardGame {
     }
 }
 
-module.exports = CardGame;
+export default CardGame;
