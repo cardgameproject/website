@@ -4,6 +4,7 @@ import Image from "next/image";
 import Layout from "@components/Layout"; // Layout wrapper
 import { contractAddress, defaultCards } from "@utils/constants"; // Cards to render
 import styles from "@styles/pages/Home.module.scss"; // Styles
+import CardGame from "../ethereum/cardgame";
 
 // Types
 import type { ReactElement } from "react";
@@ -34,6 +35,8 @@ export default function Home(): ReactElement {
     const shuffled = defaultCards.sort(() => 0.5 - Math.random());
     return shuffled.slice(0, 3);
   };
+
+  const cardGame = new CardGame(contractAddress);
 
   return (
     <Layout>
@@ -69,6 +72,11 @@ export default function Home(): ReactElement {
             Gameplay, images, and other functionality are intentionally omitted for others to interpret.<br /> 
             Feel free to use Card Game in any way you want.
           </p>
+
+          <div className={styles.home__mintbuttons}>
+            <button onClick={() => cardGame.mint(1)}>Mint Card</button>
+            <button onClick={() => cardGame.mint(15)}>Mint 15 Cards</button>
+          </div>
         </div>
 
         {/* Rendering sample cards */}
